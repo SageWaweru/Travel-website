@@ -1,0 +1,117 @@
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #f3eae189;
+    font-size: 22px;
+    color: rgb(12, 65, 107);
+    border-bottom: 2px solid rgb(12, 65, 107);
+    height: 105px;
+}
+.navbar ul li{
+    display: inline;
+    padding: 20px;
+}
+
+.navbar ul li:hover{
+    color: rgb(235, 108, 41);
+}
+
+span{
+    color: rgb(9, 45, 74);
+}
+
+/* span:hover{
+    color:rgb(17, 78, 129) ;
+} */
+.navbar ul li button{
+    background-color: rgb(220, 123, 70);
+    border: none;
+    border-radius: 10px;
+}
+
+.navbar ul li button:hover{
+    color:rgb(17, 78, 129);
+    background-color: rgb(235, 108, 41) ;
+}
+
+.carousel-item{
+    height: 32rem;
+    background: #000;
+    color: white;
+    position: relative;
+}
+
+.container{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom:50px ;
+}
+.overlay-image{
+    background-image: url(./images/hotel3.jpg);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+}
+.overlay-image-0{
+    background-image: url(./images/Crowded-Safari-in-Kenya.jpg);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+}
+.overlay-image-1{
+    background-image: url(./images/dubai.webp);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+}
+.overlay-image-2{
+    background-image: url(./images/italy.jpg);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+}
+.overlay-image-3{
+    background-image:url(./images/connections_africa_penguins.jpg);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+}
+.overlay-image-4{
+    background-image: url(./images/kenya-day-trips-bg2.webp);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+}
+.popular{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly; 
+    margin-top:2rem;
+}
