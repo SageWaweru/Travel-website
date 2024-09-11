@@ -115,3 +115,30 @@ span{
     justify-content: space-evenly; 
     margin-top:2rem;
 }
+
+.footer{
+    background-color: rgb(12, 65, 107);
+    color: white;
+    height: 18rem;
+    margin-top: 2rem;
+}
+
+.footer-top{
+    border-bottom: 1px solid white;
+}
+
+.footer h5{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.socials{
+    margin-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.contacts{
+ float: right;
+ margin-right: 2rem;
+}
